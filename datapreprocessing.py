@@ -1,6 +1,5 @@
 from argparse import ArgumentParser
 from os import walk
-from train import declareParserArguments
 
 import numpy as np
 import nltk
@@ -115,7 +114,7 @@ def separete_books_sentences(path):
     return sents
 
 
-parser = ArgumentParser(description="Harry Potter Text Generator")
+# parser = ArgumentParser(description="Harry Potter Text Generator")
 # Add the arguments
-args = declareParserArguments(parser=parser)
+# args = declareParserArguments(parser=parser)
 # DataPipeline(args=args)
